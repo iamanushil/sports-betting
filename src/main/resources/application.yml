@@ -1,0 +1,10 @@
+spring:
+  rabbitmq:
+    host: rabbitmq
+    port: 5672
+    exchange: "bet.exchange"
+    queue: "bet.settlement.queue"
+    routing-key: "bet.settlement.routing-key"
+    
+  kafka:
+    bootstrap-servers: kafka:9092
