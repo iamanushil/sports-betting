@@ -65,3 +65,4 @@ curl --location 'http://localhost:8080/api/event/publish' \
 ## Notes
 - If you change the code, rebuild with `docker-compose up --build`.
 - For any issues, check logs with `docker-compose logs <service>`.
+- Please find screenshots of the application in the `screenshots` directory.
